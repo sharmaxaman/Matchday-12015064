@@ -1,0 +1,43 @@
+[
+    {
+        "id":1,
+        "title": "Badminton open India",
+        "winner": "Harsh",
+        "looser": "shubham"
+    },
+
+    {
+        "id":2,
+        "title": "Badminton open Japan",
+        "winner": "Mayank",
+        "looser": "Yash"
+    },
+    
+    {
+        "id":3,
+        "title": "Badminton open China",
+        "winner": "Harsh",
+        "looser": "Mohit"
+    },
+
+    {
+        "id":4,
+        "title": "Badminton open London",
+        "winner": "Mohit",
+        "looser": "Mayank"
+    },
+
+    {
+        "id":5,
+        "title": "Badminton open Pak",
+        "winner": "Abhinav",
+        "looser": "Atequee"
+    },
+
+    {
+        "id":6,
+        "title": "Badminton open Nepal",
+        "winner": "Aman",
+        "looser": "Atequee"
+    }
+]

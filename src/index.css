@@ -1,0 +1,237 @@
+body{
+  margin: 0;
+  font-family: 'Signika Negative', sans-serif;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Signika+Negative&family=Spectral:wght@300&display=swap');
+  
+  
+  .header{
+      margin: auto;
+  }
+  .head{
+      text-align: center;
+  }
+  
+  /* .search{
+      text-align: end;
+      margin-right: 6vw;
+  } */
+  a{
+    text-decoration: none;
+  }
+  .boxes{
+  display: flex;
+  flex-direction: row;
+  /* margin: 10px; */
+  margin-top: 5vw;
+  flex-wrap: wrap;
+  /* flex-flow: wrap; */
+  /* padding: 8px; */
+  justify-content: space-evenly;
+  
+  }
+  
+  .container{
+  /* position: absolute; */
+  width: 436.39px;
+  /* height: 290.93px; */
+  
+  background-color: #23294A;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 8px;
+  }
+                                          /* Texts */
+  .texts{
+      text-align: center;
+      
+  }
+  .t1{
+  /* font-family: 'Inter'; */
+  font-family: 'Signika Negative', sans-serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  
+  }
+  .t2{
+  /* font-family: 'Inter'; */
+  font-family: 'Signika Negative', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  }
+  .t3{
+  /* font-family: 'Inter'; */
+  font-family: 'Signika Negative', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  }
+                                      /* End */
+  
+                                     /* Results */
+  .result{
+      display: flex;
+      flex-direction: row;
+  }
+  
+  
+                               /* left image */
+  .crown{
+      margin-left: 9px;
+  }
+  
+  .flag img{
+      width: 42px;
+      height: 50px;
+      object-fit:cover;
+      border-radius: 50%; 
+      margin-top: -7px;
+    
+  }
+  /* .flag p{
+    display: inline;
+  } */
+  
+           /* ********************************************** */
+  
+  .score{
+  margin-top: 21px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 163.53px;
+  /* height: 29.82px; */
+  height: 34px;
+  background: #57B09E;
+  border-radius: 7px;
+  }         
+  .score p{
+  text-align: center;
+  margin-top: 8.5px;
+  font-family: 'Signika Negative', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  
+  color: #FFFFFF;
+  
+  }
+  
+  
+                                                 /* LOGO */
+.logo{
+      margin-left: 40%;
+      /* margin-left: 43%; */
+      margin-top: -4vw;
+      
+    }   
+  
+.logo img{
+  padding: 5px;
+  display: block;
+   }                                                                                        
+ 
+                                                     /* SEARCH BOX */
+   .search-bar{
+ /* width: 100%; */
+ /* min-height: 100vh; */
+ /* padding: 2%;   */
+ text-align: end;
+ margin-right: 7vw;
+ padding-top: 25px;
+   }                                                  
+
+   .searching {
+    width: 60%;
+      height: 35px;
+      max-width: 600px;
+      background: rgba(255, 255, 255, 0.2);
+      display: inline-flex;
+      align-items: center;
+      border-radius: 10px;
+      padding: 9px 9px 9px 4px;
+      border: 1px solid #555;
+  }
+
+  .searching input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 4px 2px;
+    font-size: 20px;
+    
+    /* color: #cac7ff; */
+    color: #555;
+  }
+  ::placeholder{
+    color: #5c4b4b;
+    opacity: 0.5;
+  }
+
+  .searching button img{
+    width: 25px;
+  }
+
+  .searching button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 28px;
+    background: white;
+    cursor: pointer;
+  }
+
+                      /* media queries */
+ @media screen and (max-width: 480px) {
+ 
+    .container{
+        width: 320px;
+    }
+    
+}
+
+@media screen and (max-width: 350px) {
+ 
+    .container{
+        width: 260px;
+        margin: 4px;
+    }
+    
+}
+.video{
+  
+  margin-top: 6vh;
+  justify-content: center;
+  /* margin: auto; */
+  display: flex;
+  /* height: 80%; */
+}
+.video iframe{
+  height: 600px;
+  width: 1000px;
+  display: flex;
+}
+
+
+.nav{
+ 
+  height: 100px;
+  background-color: #dce2e0;
+}
+
+.nav h2{
+  text-align: center;
+  margin: 0;
+}
+.videoHead{
+  padding-top: 20px;
+}
